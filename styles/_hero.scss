@@ -26,20 +26,20 @@
 
     .cta-buttons {
       display: flex;
-      gap: 1rem; /* Reduz o espaçamento entre os botões */
-      margin-left: 10rem; /* Alinha os botões com o texto */
+      gap: 1rem;
+      margin-left: 10rem;
 
       .cta-button {
         padding: 1rem 1.5rem;
         border-radius: 4px;
-        background-color: #ff8748; /* Cor do botão "Fale com Vendas" */
+        background-color: #ff8748;
         color: black;
         text-decoration: none;
       }
 
       .secondary {
-        background-color: #fff; /* Fundo branco para o botão "Explore Produtos" */
-        color: #333; /* Fonte preta */
+        background-color: #fff;
+        color: #333;
 
       }
     }
