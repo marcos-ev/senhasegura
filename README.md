@@ -2,6 +2,8 @@
 
 Este é um projeto de landing page para o **Senhasegura**, criado com [Astro](https://astro.build/), React e SCSS, com o objetivo de fornecer uma interface simples e eficaz.
 
+DEPLOY:  https://senhasegura-git-main-marcosevs-projects.vercel.app/
+
 ## Tecnologias Utilizadas
 - **Astro**: Framework para criação de sites estáticos e dinâmicos com componentes modernos.
 - **React**: Utilizado em seções específicas para componentes interativos.
