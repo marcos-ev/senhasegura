@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/_navbar.scss';  // Certifique-se de que o caminho está correto
+import '/styles/_navbar.scss';  // Certifique-se de que o caminho está correto
 
 const Navbar: React.FC = () => {
   return (
