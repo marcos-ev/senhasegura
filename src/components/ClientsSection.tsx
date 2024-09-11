@@ -7,12 +7,12 @@ const ClientsSection: React.FC = () => {
     <section className="clients-section">
       <h2>CISOs e equipes de segurança cibernética em mais de 60 países confiam no senhasegura.</h2>
       <div className="clients-logos">
-        <img src="src\assets\clientes\65b14a0adf214cf15593d8ec_1200px-Telefónica_Logo.svg.avif" alt="Telefónica" />
-        <img src="src\assets\clientes\65b804b6010d2f267194c2ac_liberty-seguros-logo-142E921493-seeklogo.com.png" alt="Liberty Seguros" />
+        <img src="..\assets\clientes\65b14a0adf214cf15593d8ec_1200px-Telefónica_Logo.svg.avif" alt="Telefónica" />
+        <img src="..\assets\clientes\65b804b6010d2f267194c2ac_liberty-seguros-logo-142E921493-seeklogo.com.png" alt="Liberty Seguros" />
         <img src="https://cdn.prod.website-files.com/6531856af18f18cb20cfa436/661ecf1b9a6310ec5cb0eedc_santander-logo-gs.png" alt="Ativo 3" />
-        <img src="src\assets\clientes\657a3ff0da2066f511ef4c54_Ativo 11.webp" alt="Ativo 11" />
-        <img src="src\assets\clientes\657a3ff2ead5afc2bdf85642_Ativo 14.webp" alt="Ativo 14" />
-        <img src="src\assets\clientes\657a3ff226570fedf3747d91_Ativo 13.webp" alt="Ativo 13" />
+        <img src="..\assets\clientes\657a3ff0da2066f511ef4c54_Ativo 11.webp" alt="Ativo 11" />
+        <img src="..\assets\clientes\657a3ff2ead5afc2bdf85642_Ativo 14.webp" alt="Ativo 14" />
+        <img src="..\assets\clientes\657a3ff226570fedf3747d91_Ativo 13.webp" alt="Ativo 13" />
         <img src="https://cdn.prod.website-files.com/6531856af18f18cb20cfa436/661ece3d55717b82481b4933_pgim_center_global_navy.png" alt="PGIM" />
         <img src="https://cdn.prod.website-files.com/6531856af18f18cb20cfa436/661ecf7f44dd0fe14eb0ca3e_hotroy-logo.png" alt="Hotroy" />
         <img src="https://cdn.prod.website-files.com/6531856af18f18cb20cfa436/658429cb44cd786f2f340779_Logo_Grupo_Boticario_500x165.webp" alt="Grupo Boticário" />
