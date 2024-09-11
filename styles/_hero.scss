@@ -26,20 +26,20 @@
     }
 
     .hero-subtitle {
-      font-size: 1.5rem; /* Subtítulo maior */
+      font-size: 1.5rem;
       margin-bottom: 1rem;
       font-family: 'Arial', sans-serif;
     }
 
     .cta-buttons {
       display: flex;
-      gap: 1rem; /* Reduz o espaçamento entre os botões */
-      margin-left: 10rem; /* Alinha os botões com o texto */
+      gap: 1rem;
+      margin-left: 10rem;
 
       .cta-button {
         padding: 1rem 1.5rem;
         border-radius: 4px;
-        background-color: #ff8748; /* Cor do botão "Fale com Vendas" */
+        background-color: #ff8748;
         color: black;
         text-decoration: none;
         font-weight: bold;
@@ -49,12 +49,10 @@
         background-color: rgba(0, 0, 0, 0.7);
         color: white;
       }
-      
     }
   }
 
   .hero-image img {
     max-width: 60%;
   }
-  
 }
