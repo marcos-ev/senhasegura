@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/_clients.scss';
+import '../../styles/_clients.scss';
 import { FaThumbsUp, FaRocket, FaMoneyBillWave, FaShieldAlt } from 'react-icons/fa'; // Importando ícones do react-icons
 
 const ClientsSection: React.FC = () => {
