@@ -1,0 +1,89 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .logo img {
+    width: 120px;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1rem; /* Ajuste o espaçamento entre os links */
+    margin-left: auto; /* Empurra os links para a direita */
+    font-family: 'Arial', sans-serif; /* Garanta que a fonte seja consistente com a imagem */
+
+    li {
+      position: relative;
+      margin: 0;
+
+      a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 400;
+        padding: 0.5rem 1rem;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: #3498db;
+        }
+      }
+
+      /* Adiciona uma seta ao lado dos links com dropdown */
+      a::after {
+        content: ' ▼';
+        font-size: 0.75rem;
+        margin-left: 0.3rem;
+        color: #333;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #fff;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        min-width: 150px;
+        z-index: 1000;
+
+        a {
+          color: #333;
+          padding: 0.75rem 1rem;
+          text-decoration: none;
+          display: block;
+
+          &:hover {
+            background-color: #f1f1f1;
+            color: #3498db;
+          }
+        }
+      }
+
+      &:hover .dropdown-content {
+        display: block;
+      }
+    }
+  }
+
+  .cta-button {
+    padding: 0.5rem 1rem;
+    background-color: #e67e22;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold; /* Negrito para o botão */
+    margin-left: 1rem; /* Adiciona um pequeno espaço entre o último link e o botão */
+
+    &:hover {
+      background-color: #d35400;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "senhasegura",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "start": "astro preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@astrojs/react": "^3.6.2",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "astro": "^4.15.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0"
+  }
+}

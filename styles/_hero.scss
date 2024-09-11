@@ -1,0 +1,52 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #045a5b;
+  min-height: 70vh;
+
+  .marcas {
+    margin-left: 10rem;
+  }
+
+  .hero-content {
+    max-width: 50%;
+    color: #ffffff;
+
+    h1 {
+      font-size: 4rem;
+      font-weight: bold;
+      margin-left: 10rem;
+    }
+
+    p {
+      font-size: 1.25rem;
+      margin-left: 10rem;
+    }
+
+    .cta-buttons {
+      display: flex;
+      gap: 1rem; /* Reduz o espaçamento entre os botões */
+      margin-left: 10rem; /* Alinha os botões com o texto */
+
+      .cta-button {
+        padding: 1rem 1.5rem;
+        border-radius: 4px;
+        background-color: #ff8748; /* Cor do botão "Fale com Vendas" */
+        color: black;
+        text-decoration: none;
+      }
+
+      .secondary {
+        background-color: #fff; /* Fundo branco para o botão "Explore Produtos" */
+        color: #333; /* Fonte preta */
+
+      }
+    }
+  }
+
+  .hero-image img {
+    max-width: 60%;
+  }
+  
+}

@@ -1,0 +1,125 @@
+.demo-section {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  background-color: transparent; // Remover fundo do container
+  
+  .demo-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #ecf8f6; // Fundo leve da seção
+    border-radius: 8px;
+    padding: 2rem;
+    gap: 2rem;
+  }
+
+  .demo-text {
+    flex: 1;
+    padding-right: 2rem;
+
+    h2 {
+      font-size: 2rem;
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #2c3e50;
+      margin-bottom: 1rem;
+    }
+
+    .highlight-box {
+      padding: 1.5rem;
+      border: 3px solid #045a5b; // Apenas a borda verde
+      border-radius: 8px;
+      background-color: transparent; // Transparente dentro
+      opacity: 0.8; // Deixar o interior quase invisível, ajustando a opacidade
+      margin-top: 1.5rem;
+
+      .highlight {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        .icon {
+          font-size: 1.5rem;
+          margin-right: 1rem;
+          color: #27ae60;
+        }
+
+        p {
+          font-size: 1rem;
+          color: #2c3e50;
+        }
+      }
+    }
+  }
+
+  .demo-form {
+    flex: 1.5;
+    background-color: #fff; // Fundo branco apenas no formulário
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      .form-group {
+        margin-bottom: 1.5rem;
+
+        label {
+          display: block;
+          margin-bottom: 0.5rem;
+          font-size: 1rem;
+          color: #2c3e50;
+        }
+
+        input, select, textarea {
+          width: 100%;
+          padding: 0.75rem;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-size: 1rem;
+          color: #333;
+        }
+
+        textarea {
+          height: 100px;
+        }
+      }
+
+      .form-group-inline {
+        display: flex;
+        justify-content: space-between;
+
+        .form-group {
+          width: 48%;
+        }
+      }
+
+      .submit-btn {
+        background-color: #e67e22;
+        color: #fff;
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 4px;
+        font-size: 1rem;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #d35400;
+        }
+      }
+
+      .recaptcha {
+        margin-top: 1rem;
+        font-size: 0.875rem;
+        color: #888;
+      }
+    }
+  }
+}
