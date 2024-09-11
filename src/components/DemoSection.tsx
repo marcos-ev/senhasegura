@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/_demo.scss';
+import '../../styles/_demo.scss';
 
 const DemoSection: React.FC = () => {
   return (
