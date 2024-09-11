@@ -2,13 +2,13 @@
   display: flex;
   justify-content: center;
   padding: 3rem 0;
-  background-color: transparent;
+  background-color: transparent; // Remover fundo do container
   
   .demo-container {
     display: flex;
     max-width: 1200px;
     width: 100%;
-    background-color: #ecf8f6; 
+    background-color: #ecf8f6; // Fundo leve da seção
     border-radius: 8px;
     padding: 2rem;
     gap: 2rem;
@@ -32,10 +32,10 @@
 
     .highlight-box {
       padding: 1.5rem;
-      border: 3px solid #045a5b;
+      border: 3px solid #045a5b; // Apenas a borda verde
       border-radius: 8px;
-      background-color: transparent;
-      opacity: 0.8;
+      background-color: transparent; // Transparente dentro
+      opacity: 0.8; // Deixar o interior quase invisível, ajustando a opacidade
       margin-top: 1.5rem;
 
       .highlight {
@@ -59,7 +59,7 @@
 
   .demo-form {
     flex: 1.5;
-    background-color: #fff;
+    background-color: #fff; // Fundo branco apenas no formulário
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
