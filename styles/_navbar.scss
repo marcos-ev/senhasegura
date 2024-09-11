@@ -16,9 +16,9 @@
   .nav-links {
     display: flex;
     list-style: none;
-    gap: 1rem; /* Ajuste o espaçamento entre os links */
-    margin-left: auto; /* Empurra os links para a direita */
-    font-family: 'Arial', sans-serif; /* Garanta que a fonte seja consistente com a imagem */
+    gap: 1rem;
+    margin-left: auto;
+    font-family: 'Arial', sans-serif;
 
     li {
       position: relative;
@@ -36,7 +36,7 @@
         }
       }
 
-      /* Adiciona uma seta ao lado dos links com dropdown */
+      
       a::after {
         content: ' ▼';
         font-size: 0.75rem;
@@ -79,8 +79,8 @@
     color: #fff;
     border-radius: 4px;
     text-decoration: none;
-    font-weight: bold; /* Negrito para o botão */
-    margin-left: 1rem; /* Adiciona um pequeno espaço entre o último link e o botão */
+    font-weight: bold;
+    margin-left: 1rem;
 
     &:hover {
       background-color: #d35400;
