@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../styles/_hero.scss';
 
-
 const HeroSection: React.FC = () => {
   return (
     <section className="hero">
@@ -10,7 +9,10 @@ const HeroSection: React.FC = () => {
           <img className='marcas' src="..\assets\institutes-logos-light (1).png" alt="" />
         </div>
         <h1>Número #1 em Gestão de Acesso Privilegiado, de novo!</h1>
-        <p>Solução PAM incomparável. <strong>Reconhecimento internacional</strong>. Fabricação brasileira.</p>
+        <p className="hero-subtitle">
+          <strong>Solução PAM incomparável.</strong> Reconhecimento internacional. Fabricação brasileira.
+        </p>
+        <p>Proteja sua organização em tempo recorde:</p>
         <div className="cta-buttons">
           <a href="#" className="cta-button">Fale com Vendas</a>
           <a href="#" className="cta-button secondary">Explore Produtos</a>
