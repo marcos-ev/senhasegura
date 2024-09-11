@@ -7,7 +7,7 @@ const HeroSection: React.FC = () => {
     <section className="hero">
       <div className="hero-content">
         <div>
-          <img className='marcas' src="src\assets\institutes-logos-light (1).png" alt="" />
+          <img className='marcas' src="..\assets\institutes-logos-light (1).png" alt="" />
         </div>
         <h1>Número #1 em Gestão de Acesso Privilegiado, de novo!</h1>
         <p>Solução PAM incomparável. <strong>Reconhecimento internacional</strong>. Fabricação brasileira.</p>
@@ -17,7 +17,7 @@ const HeroSection: React.FC = () => {
         </div>
       </div>
       <div className="hero-image">
-        <img src="src\assets\pam.png" alt="PAM 2024" />
+        <img src="..\assets\pam.png" alt="PAM 2024" />
       </div>
     </section>
   );
