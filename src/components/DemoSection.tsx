@@ -17,19 +17,19 @@ const DemoSection: React.FC = () => {
           <div className="highlight-box">
             <div className="highlight">
               <span className="icon">
-                <img src="src\assets\shield.png" alt="Ícone 1" width="20" height="20" />
+                <img src="..\assets\shield.png" alt="Ícone 1" width="20" height="20" />
               </span>
               <p>Custo total de propriedade (TCO) 70% menor em comparação com os concorrentes.</p>
             </div>
             <div className="highlight">
               <span className="icon">
-                <img src="src\assets\shield.png" alt="Ícone 2" width="20" height="20" />
+                <img src="..\assets\shield.png" alt="Ícone 2" width="20" height="20" />
               </span>
               <p>Tempo de valorização (TTV) 90% maior com uma implantação rápida de 7 minutos.</p>
             </div>
             <div className="highlight">
               <span className="icon">
-                <img src="src\assets\shield.png" alt="Ícone 3" width="20" height="20" />
+                <img src="..\assets\shield.png" alt="Ícone 3" width="20" height="20" />
               </span>
               <p>A única solução PAM disponível no mercado que cobre todo o ciclo de vida do acesso privilegiado.</p>
             </div>
