@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/_advantages.scss';
+import '../../styles/_advantages.scss';
 
 const AdvantagesSection: React.FC = () => {
   const advantages = [
